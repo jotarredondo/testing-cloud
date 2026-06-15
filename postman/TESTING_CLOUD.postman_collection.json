@@ -1,0 +1,152 @@
+{
+  "info": {
+    "_postman_id": "d8ce97f5-1c1d-4dd1-a40d-e5d0ce6f46a6",
+    "name": "TESTING_CLOUD",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14664338"
+  },
+  "item": [
+    {
+      "name": "LOCAL",
+      "item": [
+        {
+          "name": "ALL",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/testing",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "HEALTH",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/testing/health",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing",
+                "health"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/testing/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/testing",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/testing/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "ID",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:8080/api/testing/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "api",
+                "testing",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "CLOUD_A",
+      "item": []
+    }
+  ]
+}
